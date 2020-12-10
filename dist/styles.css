@@ -1,0 +1,175 @@
+body{
+    margin: 0px 0px 0px 0px;
+    background-image: url('https://w.wallhaven.cc/full/p8/wallhaven-p8m8ej.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+#frm{
+    margin-left: 360px;
+}
+
+#btn{
+    background-color: rgb(18, 21, 196);
+    font-size: 20px;
+    
+    border-radius: 15px;
+    cursor: pointer;
+    width: 222px;
+    height: 40px;
+    color: wheat;
+}
+
+.contains-btn,.task-name{
+    display: inline-block;
+}
+
+#tasks,#subtasks{
+    margin-left: 10px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    /* background-image: antiquewhite; */
+    background-color: transparent;
+    color: red;
+    font-size: xx-large;
+    border-color: red;
+}
+#subtasks{
+    width: 200px;
+    margin-top: 5px;
+}
+h1{
+    font-size: 25px;
+    
+}
+
+::placeholder{
+    color:wheat;
+    text-align: center;
+}
+
+#main-container{
+    margin-top: 40px;
+    max-width: 1150px;
+    height: 458px;
+    margin-left: 198px;
+    margin-right: 198px;
+   
+}
+
+.task-lists{
+    height: 30px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    margin-top:15px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 25px;
+    list-style-type: none;
+    /* cursor: pointer; */
+    padding-left: 15px;
+}
+
+#tasks:-webkit-autofill,
+#tasks:-webkit-autofill:hover, 
+#tasks:-webkit-autofill:focus, 
+#tasks:-webkit-autofill:active  {
+  transition: background-color 5000s;
+  -webkit-text-fill-color: #fff !important;
+  font-size: xx-large;
+}
+
+[data-icon]:before {
+    font-family: icons; /* BYO icon font, mapped smartly */
+    content: attr(data-icon);
+    speak: none; /* Not to be trusted, but hey. */
+}
+
+.del{
+    position: absolute;
+    left: 85%;
+    background-color: transparent;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+.collapsible{
+    cursor: pointer;
+}
+
+.pro{
+    width: 300px;
+    position: absolute;
+    left: 40%;
+    color: blue;
+}
+
+#card{
+    color: rgb(214, 156, 156);
+    /* position: fixed; */
+    /* left: 50%;
+    transform: translate(-50%, -50%); */
+    border: 5px solid green;
+    background-color: white;
+    width: 500px;
+    max-width: 80%;
+    height: 100px;
+    border-radius: 20px;
+
+    /* display: none; */
+}
+
+.content{
+    text-align: center;
+}
+
+
+li::marker{
+    font-size: large;
+    content: "📝";
+}
+
+li{
+    position: absolute;
+}
+
+.lists{
+    display: flex;
+}
+
+.def{
+    width: 400px;   height: 100px;
+}
+
+#des{
+    display: grid;
+}
+
+.str{
+    float: left;
+    background-color: transparent;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+
+.act{
+    text-decoration: line-through;
+}
