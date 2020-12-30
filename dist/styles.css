@@ -9,7 +9,7 @@ body{
 }
 
 #frm{
-    margin-left: 360px;
+    margin-left: 200px;
 }
 
 #btn{
@@ -91,7 +91,7 @@ h1{
 
 .del{
     position: absolute;
-    left: 85%;
+    left: 80%;
     background-color: transparent;
     border-top-width: 0px;
     border-left-width: 0px;
@@ -142,6 +142,7 @@ li::marker{
 
 li{
     position: absolute;
+    margin-left: 19px;
 }
 
 .lists{
